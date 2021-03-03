@@ -20,7 +20,7 @@ target = np.load("data/target.npy")
 
 DATA_SIZE = data.shape[0]
 
-NUM_TESTS = 5000
+NUM_TESTS = 10000
 print("Predictions count for each model:", NUM_TESTS)
 
 tflite_optimized_model_interpreter = tflite.Interpreter(model_path=optimized_model_path)
